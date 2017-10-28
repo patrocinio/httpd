@@ -1,6 +1,6 @@
 FROM httpd
 
-COPY index.html /app/ROOT/index.html
+COPY index.html /usr/local/apache2/htdocs/index.html
 
 
 
